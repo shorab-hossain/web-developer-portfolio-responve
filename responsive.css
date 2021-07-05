@@ -1,0 +1,17 @@
+@media (max-width: 1024px){
+    .col-md-6.mt-4 {
+        width: 100%;
+    }
+    #first-card {
+        width: 90%;
+        margin-bottom: 100px;
+        margin-right: 30px;
+    }
+    #second-card{
+        width: 90%;
+        margin-right: 30px;
+    }
+    .col-md-6.ml-4.mr-4 {
+        width: 100%;
+    }
+}

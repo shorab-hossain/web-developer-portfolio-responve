@@ -1,0 +1,53 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+.col-md-6 img {
+    width: 530px;
+}
+p{
+    text-align: justify;
+}
+.btn a {
+    color: white;
+    text-decoration: none;
+}
+#main-section{
+    margin-bottom: 150px;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+#second-section{
+    margin-bottom: 150px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+#third-section{
+    margin-bottom: 150px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.col-md-5{
+    width: 40%;
+    border-left: 45deg,orange,black;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px gray;
+}
+#first-card{
+    border-left: 10px solid;
+    border-image: linear-gradient( blue, orange);
+    border-image-slice:1;
+}
+#second-card{
+    border-left: 10px solid;
+    border-image: linear-gradient( purple, tomato);
+    border-image-slice:1;
+}
+footer p{
+    text-align: center;
+}
